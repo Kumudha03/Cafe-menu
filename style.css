@@ -1,0 +1,93 @@
+html{
+    font-size: 24px;
+}
+
+body{
+    background-image: url(images/Coffee-Beans-HD-Background-.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    max-width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+header img{
+    width: 3rem;
+    margin: auto;
+}
+main{
+    width:100%;
+    max-width: 700px;
+    margin:4rem auto ;
+    padding: 2rem;
+    background-color:burlywood;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+hr{
+    background-color: brown;
+    border:none;
+    height:0.2rem;
+}
+.item{
+  
+    width:70%;
+    text-align: left;
+}
+.price{
+   
+    width:25%;
+    text-align: right;
+}
+h1,h2,p,a{
+    text-align: center;
+}
+p{
+    font-size: 1rem;
+}
+article p{
+    font-size: 1.5rem;
+    display: inline-block;
+}
+article{
+    padding:0 1rem;
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+
+a:hover{
+    cursor: pointer;
+    color: brown;
+}
+
+@media screen and (max-width:1025px) {
+    main{
+        width: 80vw;
+        padding: 0.5rem;
+    }
+}
+
+@media screen and (max-width:550px) {
+    html{
+       font-size: 10px;
+    }
+      
+}
+
